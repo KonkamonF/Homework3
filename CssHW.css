@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Ubuntu, serif;
+}
+.top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.top1 img {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+}
+.top2 {
+  display: flex;
+  justify-content: center;
+}
+.top2 p {
+  display: flex;
+  align-items: center;
+  padding-right: 40px;
+}
+.top3 {
+  display: flex;
+  justify-content: center;
+}
+.top3 img {
+  width: 32px;
+  height: 32px;
+  margin-left: 24px;
+}
+.top3 p {
+  display: flex;
+  align-items: center;
+margin-left: 18px;
+}
+.one{
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+display: flex;
+align-items: center;
+width: 18px;
+height: 18px;
+}
+.one p{
+  display: flex;
+  align-items: center;
+  margin-left: 4px;
+}
+.cartone{
+  display: flex;
+  justify-content: end;
+}
+.cartone .one{
+  position: absolute;
+}
+.center {
+  display: flex;
+  justify-content: space-around;
+  padding: 4%;
+  background-color: whitesmoke;
+}
+/* .mid {
+
+} */
+.mid1{
+  padding-bottom: 32px;
+}
+.mid2 img {
+  width: 32px;
+  height: 32px;
+  margin-right: 20px;
+  border: 2px solid greenyellow;
+  border-radius: 50%;
+  padding: 12%;
+}
+.mid21 {
+  background-color: skyblue;
+  padding: 28px;
+  margin-right: 24px;
+  border-radius: 8%;
+}
+.mid21 img {
+  background-color: white;
+  width: 32px;
+  height: 32px;
+  margin-right: 28px;
+  margin-bottom: 8px;
+  border-radius: 12%;
+}
+.mid21 p {
+  background-color: rgba(240, 255, 255, 0);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 8px;
+}
+.mid3 .point{
+  border-top: dotted;
+  border-width: thick;
+}
+.mids3 .points{
+  border-top: dotted;
+  border-width: thick;
+}
+.point{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.mid3 p {
+  padding-top: 18px;
+  padding-bottom: 12px;
+}
+.mids img {
+  width: 32px;
+  height: 32px;
+  margin-right: 20px;
+  border: 2px solid greenyellow;
+  border-radius: 50%;
+  padding: 12%;
+}
+.mids21 {
+  background-color: orangered;
+  padding: 28px;
+  margin-right: 24px;
+  border-radius: 8%;
+}
+.mids21 img {
+  background-color: white;
+  width: 32px;
+  height: 32px;
+  margin-right: 28px;
+  margin-bottom: 8px;
+  border-radius: 12%;
+}
+.mids21 p {
+  background-color: rgba(240, 255, 255, 0);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 8px;
+}
+/* .mids3 {
+  display: flex;
+  flex-direction: column;
+} */
+.mids3 p {
+  padding-top: 18px;
+  padding-bottom: 12px;
+}
+.midposition {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 5%;
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 8px;
+  padding-right: 50px;
+}
+.midsposition {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 5%;
+  background-color: white;
+  padding: 8px;
+}
+select{
+  border-color: greenyellow;
+  border-radius: 8%; 
+}
+.btt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bt {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 7%;
+  padding: 12%;
+}
+.bt p{
+  padding-top: 8px;
+  padding-bottom: 18px;
+  font-weight: bolder;
+}
+.Sub {
+  display: flex;
+  justify-content: space-between;
+}
+.Sub p{
+  font-weight: lighter;
+  color: slategrey;
+}
+.apply {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.apply img {
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+}
+input {
+  resize: none;
+  border-radius: 8%;
+  margin-right: 12px;
+  width: 250px;
+    font-size: 12px;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+.apply button {
+  border-radius: 12%;
+  padding-block: 8px;
+  padding-inline: 12px;
+  color: rgb(41, 216, 103);
+  border-color: rgb(41, 216, 103);
+  background-color: white;
+}
+.buttonlog{
+  border-radius: 8%;
+  padding-block: 8px;
+  padding-inline: 20%;
+  background-color: rgb(123, 255, 169);
+  font-weight: bold;
+  border-color: rgba(255, 255, 255, 0);
+  color: black;
+}
+.payy {
+  display: flex;
+  justify-content: space-between;
+}
+.thb p{
+  color: rgb(41, 216, 103);
+}
+.pay p{
+  font-weight: lighter;
+}
+.bl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+hr{
+  margin-top: 18px;
+}
